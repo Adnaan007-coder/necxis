@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@google-cloud/firestore": "^7.11.1",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^7.1.0",
+    "firebase": "^11.8.1",
+    "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "react-firebase-hooks": "^5.1.1",
+    "react-hot-toast": "^2.5.2"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-next": "15.3.2"
   }
 }
