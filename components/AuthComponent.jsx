@@ -41,7 +41,7 @@ const AuthComponent = () => {
          const messagingInstance = messaging;
           if (messagingInstance) {
             const token = await getToken(messagingInstance, {
-              vapidKey: "BBahzD4hTTn2ehfFgnhvrsWnI6SWJ-nETDUQplXYZoVa9sWw4HRceVUWiVX1SPJxkFlo8HyLTcgj3Gdu_HOgSH4" // You'll need to generate this in Firebase Console
+              vapidKey: "" 
             });
             setFcmToken(token);
             console.log('FCM Token:', token);
